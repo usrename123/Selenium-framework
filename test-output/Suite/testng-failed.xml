@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="sfdc.pageobjmod.tests.SfdcCreateAccountTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initMethod"/>
+          <include name="AccoutTabClick"/>
+        </methods>
+      </class> <!-- sfdc.pageobjmod.tests.SfdcCreateAccountTest -->
+      <class name="sfdc.pageobjmod.tests.LoginTest">
+        <methods>
+          <include name="RemembermeCheckBox"/>
+          <include name="initMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sfdc.pageobjmod.tests.LoginTest -->
+      <class name="sfdc.pageobjmod.tests.HomepageTest">
+        <methods>
+          <include name="myProfileclick"/>
+          <include name="initMethod"/>
+        </methods>
+      </class> <!-- sfdc.pageobjmod.tests.HomepageTest -->
+      <class name="sfdc.pageobjmod.tests.UserMenuTest">
+        <methods>
+          <include name="initMethod"/>
+          <include name="LogOutClick"/>
+        </methods>
+      </class> <!-- sfdc.pageobjmod.tests.UserMenuTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-10T21:47:35 PDT" name="Default suite" finished-at="2025-07-10T21:48:35 PDT" duration-ms="60525">
+    <groups>
+    </groups>
+    <test started-at="2025-07-10T21:47:35 PDT" name="Default test" finished-at="2025-07-10T21:48:35 PDT" duration-ms="60525">
+      <class name="sfdc.pageobjmod.tests.UserMenuTest">
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:35 PDT" name="initMethod" finished-at="2025-07-10T21:47:37 PDT" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="Aboutme()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:37 PDT" name="Aboutme" finished-at="2025-07-10T21:47:44 PDT" duration-ms="7051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aboutme -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:44 PDT" name="teardown" finished-at="2025-07-10T21:47:44 PDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:44 PDT" name="initMethod" finished-at="2025-07-10T21:47:45 PDT" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="DevelopersConsol()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:45 PDT" name="DevelopersConsol" finished-at="2025-07-10T21:47:50 PDT" duration-ms="4951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DevelopersConsol -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:50 PDT" name="teardown" finished-at="2025-07-10T21:47:50 PDT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:50 PDT" name="initMethod" finished-at="2025-07-10T21:47:51 PDT" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="FileclickAndFileupload()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:51 PDT" name="FileclickAndFileupload" finished-at="2025-07-10T21:47:58 PDT" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileclickAndFileupload -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:58 PDT" name="teardown" finished-at="2025-07-10T21:47:58 PDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:58 PDT" name="initMethod" finished-at="2025-07-10T21:47:59 PDT" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="LogOutClick()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:47:59 PDT" name="LogOutClick" finished-at="2025-07-10T21:48:02 PDT" duration-ms="3176" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='userNavButton']"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a45b99982f303e00a09a450ba69eda96, findElement {value=//div[@id='userNavButton'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\annur\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61361/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a45b99982f303e00a09a450ba69eda96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='userNavButton']"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a45b99982f303e00a09a450ba69eda96, findElement {value=//div[@id='userNavButton'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\annur\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61361/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a45b99982f303e00a09a450ba69eda96
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
+at sfdc.pageobjmod.pages.sfdcUserMenuPage.LogOutclick(sfdcUserMenuPage.java:532)
+at sfdc.pageobjmod.tests.UserMenuTest.LogOutClick(UserMenuTest.java:178)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutClick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:03 PDT" name="teardown" finished-at="2025-07-10T21:48:03 PDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:03 PDT" name="initMethod" finished-at="2025-07-10T21:48:04 PDT" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="MysettingDropdown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:04 PDT" name="MysettingDropdown" finished-at="2025-07-10T21:48:11 PDT" duration-ms="7188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MysettingDropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:11 PDT" name="teardown" finished-at="2025-07-10T21:48:12 PDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:12 PDT" name="initMethod" finished-at="2025-07-10T21:48:13 PDT" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="myProfileclickAddPhoto()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:13 PDT" name="myProfileclickAddPhoto" finished-at="2025-07-10T21:48:24 PDT" duration-ms="10898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myProfileclickAddPhoto -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:24 PDT" name="teardown" finished-at="2025-07-10T21:48:24 PDT" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:24 PDT" name="initMethod" finished-at="2025-07-10T21:48:25 PDT" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="postLink()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:25 PDT" name="postLink" finished-at="2025-07-10T21:48:35 PDT" duration-ms="9505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sfdc.pageobjmod.tests.UserMenuTest@1c6804cd]" started-at="2025-07-10T21:48:35 PDT" name="teardown" finished-at="2025-07-10T21:48:35 PDT" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sfdc.pageobjmod.tests.UserMenuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

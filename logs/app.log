@@ -1,0 +1,18 @@
+2025-07-10 20:55:26 INFO  sfdc.pageobjmod.tests.HomepageTest - page loaded successfully
+2025-07-10 21:10:08 INFO  sfdc.pageobjmod.tests.HomepageTest - Home page loaded successfully
+2025-07-10 21:11:00 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:11:02 INFO  sfdc.pageobjmod.tests.LoginTest - Actual error Message -> Error: Please enter your password.
+2025-07-10 21:11:04 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:11:07 INFO  sfdc.pageobjmod.tests.LoginTest - Test was successful
+2025-07-10 21:11:09 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:11:12 INFO  sfdc.pageobjmod.tests.LoginTest - page loaded successfully
+2025-07-10 21:11:14 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:11:47 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:11:52 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:11:55 INFO  sfdc.pageobjmod.tests.LoginTest - continue button got clicked and email received
+2025-07-10 21:11:56 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:12:01 INFO  sfdc.pageobjmod.tests.LoginTest - error message verified-PASS
+2025-07-10 21:18:22 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:18:25 INFO  sfdc.pageobjmod.tests.LoginTest - Test was successful
+2025-07-10 21:18:27 INFO  sfdc.pageobjmod.tests.LoginTest - chrome driver executed
+2025-07-10 21:19:34 INFO  sfdc.pageobjmod.tests.LoginTest - logout was clicked
